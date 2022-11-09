@@ -8,8 +8,29 @@
 </head>
 <body>
     <div class="container">
-        <div class="gameboard">
-            
+        <div class="row">
+            <h1>Tic Tac Toe Game</h1>
+        </div>
+        <div class="row gameContainer">
+            <div class="gameRow" data-row="0">
+                <div class="gameItem" data-column="0"></div>
+                <div class="gameItem" data-column="1"></div>
+                <div class="gameItem" data-column="2"></div>
+            </div>
+            <div class="gameRow" data-row="1">
+                <div class="gameItem" data-column="0"></div>
+                <div class="gameItem" data-column="1"></div>
+                <div class="gameItem" data-column="2"></div>
+            </div>
+            <div class="gameRow" data-row="2">
+                <div class="gameItem" data-column="0"></div>
+                <div class="gameItem" data-column="1"></div>
+                <div class="gameItem" data-column="2"></div>
+            </div>
+        </div>
+        <div class="row interfaceContainer">
+            <button class="btnNew">New game</button>
+            <button class="btnReset" disabled>Reset</button>
         </div>
     </div>
     <script src="./script.js" defer></script>
